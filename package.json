@@ -1,0 +1,36 @@
+{
+  "name": "mcp-aseprite",
+  "version": "0.1.0",
+  "description": "MCP server that gives AI assistants full control of Aseprite: export, spritesheets, sprite creation and the complete Lua scripting API.",
+  "type": "module",
+  "bin": {
+    "mcp-aseprite": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "aseprite",
+    "pixel-art",
+    "sprites",
+    "gamedev",
+    "claude",
+    "ai"
+  ],
+  "author": "Bruno Soares Reis (https://github.com/brunosr3003)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunosr3003/mcp-aseprite.git"
+  },
+  "homepage": "https://github.com/brunosr3003/mcp-aseprite#readme",
+  "bugs": "https://github.com/brunosr3003/mcp-aseprite/issues",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
